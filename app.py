@@ -61,7 +61,7 @@ const JobRecommendation = () => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.post("https://your-backend-url.onrender.com/recommend", {
+      const response = await axios.post("https://job-recommendation-api.onrender.com/recommend, {
         skills,
         experience: Number(experience),
         cgpa: Number(cgpa),
